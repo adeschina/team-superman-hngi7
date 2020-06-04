@@ -1,15 +1,13 @@
 
 const myPerson = {
-    firstName:"Adeshina",
-    lastName:"Ogunyomi",
-    track:"frontend",
-    HNGi7_ID: "02569",
-    programming: "Javascript",
+    fullName:"Ogunyomi Adeshina",
+    ID: "HNG-02569",
+    language: "Javascript",
+    Email: "adeshina.godwin@gmail.com",
     myIntroduction: function () {
-        console.log ( "Hello World, My name is " + this.lastName + " " + this.firstName + " with HNGi7 INTERNSHIP ID " + this.HNGi7_ID + " using " + this.programming + " for stage 2 task ");
+        console.log ( "Hello World, My name is " + this.fullName + " with HNGi7 INTERNSHIP ID " + this.ID + " using " + this.language + " for stage 2 task. Email:" + this.Email + "")
     }
     
-};
-myPerson.myIntroduction();
-
+}
+myPerson.myIntroduction()
 
